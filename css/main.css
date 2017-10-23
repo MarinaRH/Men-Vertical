@@ -1,0 +1,53 @@
+body {
+  background: url(https://78.media.tumblr.com/c6288dc9c34d1e2af4054c83e6235447/tumblr_o8hh4eDOWW1ucpvkqo1_500.gif);
+  font-family: sans-serif;
+}
+
+ul {
+  /*outline: 1px solid yellow;*/
+  list-style: none;/*quitar el estilo de lista,quita viñetas*/
+  margin: 0px;
+  padding: 0px; /*quitando el espacio de la derecha*/
+  width: 220px; /*ancho*/
+  line-height: 30px;/*espaciado entre las lineas*/
+}
+li {
+/*outline: 1px solid red;*/
+  background: #f5f5f0;
+}
+/* a etiqueta de tipo inline no se modfica ancho ni alto*/
+/*estados de los enlaces :link visited,hover,active*/
+a {
+  /*outline: 1px solid green;*/
+  display: block;
+  text-decoration: none;/*le quita el subrrrayado del link*/
+  color:#000;
+  padding: 10px;/*espacio entre el contenido a la derecha*/
+}
+
+/*cuando posicionas el mause sobre el link=hover*/
+a:hover {
+  background: #e0e0d1;
+}
+
+/*cuando haces el click en el link=active*/
+a:active {
+  background: #333;
+  color:white;
+}
+
+ul li:first-child {
+  background: #f9a91a;
+}
+
+ul li:first-child a{
+  color:white;
+}
+
+ul li:first-child a:hover{
+  color:black;
+}
+
+ul li:first-child a:active{
+  color:white;
+}
